@@ -1,4 +1,4 @@
-import { ClrIconModule, ClrDropdownModule } from '@clr/angular';
+import { ClrIconModule, ClrDropdownModule,ClrVerticalNavModule } from '@clr/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LayoutComponent } from './layout/layout.component';
@@ -13,7 +13,8 @@ import { MainComponent } from './layout/main/main.component';
   imports: [
     CommonModule,
     ClrIconModule,
-    ClrDropdownModule
+    ClrDropdownModule,
+    ClrVerticalNavModule
   ],
   exports: [
     LayoutComponent
